@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>ColorBlock</title>
+	
+	<!-- colorblock css -->
+	<link href="css/colorblock.css" rel="stylesheet">
+	
+  </head>
+  <body>
+    
+	<div id="colorblock-container">
+
+		<div class="palette">
+			<span style="background:#000000" rel="#000000"></span> 
+			<span style="background:#90C3D4" rel="#90C3D4"></span>
+			<span style="background:#C390D4" rel="#C390D4"></span>
+			<span style="background:#F549B6" rel="#F549B6"></span>
+			<span style="background:#8CFA95" rel="#8CFA95"></span>
+			<span style="background:#FABA8C" rel="#FABA8C"></span>
+			<span style="background:#FAF38C" rel="#FAF38C"></span>
+			<span style="background:#8CFADE" rel="#8CFADE"></span>
+			<span style="background:#FA8CB2" rel="#FA8CB2"></span>
+			<span style="background:#5BF55B" rel="#5BF55B"></span>
+			<span style="background:#ff5349" rel="#ff5349"></span>
+		</div>
+
+		<canvas id="colorblock" width="480" height="360"></canvas>
+
+		<div class="tracerBox">
+		<img src="img/tracer.png" alt="taille du tracé" height="20"/>
+			<select id="tracer">
+				<option value="1">1</option>
+				<option value="2" selected>2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+			</select>
+			<a class="linkClear"><img src="img/clear.png" alt="taille du tracé" height="20"/> Effacer</a>
+			<a class="linkSave"><img src="img/save.png" alt="sauvegarde de l'image" height="20"/> Sauvegarder</a>
+			<a class="linkDownload"><img src="img/download.png" alt="télécharger l'image" height="20"/> Télécharger</a>
+			<div id="message"></div>
+		</div>
+		
+	</div>
+
+    
+    <!-- colorblock js -->
+	
+	<script src="js/jquery-2.0.2.min.js" type="text/javascript"></script>
+	<script src="js/colorblock.js" type="text/javascript"></script>
+
+	
+	
+  </body>
+</html>

@@ -1,0 +1,100 @@
+canvas{
+	/*cursor:crosshair;
+	border:5px solid #666;*/
+	background:white;
+	border-radius:4px;
+	box-shadow:0px 0px 20px #666;
+	margin-top:20px;
+	margin-left:15px;
+}
+body {
+	margin: 0;
+}
+#colorblock-container{
+	width:530px;
+	height:520px;
+	padding:0px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+#colorblock{
+	border:5px solid #ccc;
+	margin: 0;
+	float:left;
+	cursor: -webkit-zoom-in; 
+	/*cursor: -moz-zoom-in;*/
+}
+.palette span{
+	display: block;
+
+width: 35px;
+
+height: 35px;
+
+cursor: pointer;
+
+border: 2px solid transparent;
+
+border-radius: 4px;
+
+position: relative;
+
+right: 50px;
+
+top: -450px;
+}
+.palette span:hover{
+	border-color:white;
+}
+.palette {
+	position: absolute;
+	top: 455px;
+	
+}
+#tracer{
+	width: 50px;
+	border-radius:5px;
+}
+.tracerBox{
+	position:relative;
+	margin-top:15px;
+	display: inline-block;
+	background: rgb(97, 97, 124);
+	width:96%;
+	height:50px;
+	padding-top:15px;
+	border-radius:5px;
+	color:#fff;
+	padding-left:0px;
+}
+.tracerBox img{
+	margin-left:15px;
+	padding-top:5px;
+	position:relative;
+	top:5px;
+}
+a.linkDownload{
+	display:none;
+	color:#ffffff;
+	font-weight:bold;
+	cursor:pointer;
+	padding-top:5px;
+	text-decoration:none;
+}
+a.linkSave, a.linkClear{
+color:#ffffff;
+font-weight:bold;
+cursor:pointer;padding-top:5px;
+}
+a.linkClear:hover, a.linkSave:hover, a.linkDownload:hover{
+	color:#ffffff;cursor:pointer;
+}
+#message{
+	display:none;
+	width:69px;
+	height:60px;
+	background:url(../img/ok.png) no-repeat;
+	position: absolute;
+	top:-25px;right:30px;
+}
